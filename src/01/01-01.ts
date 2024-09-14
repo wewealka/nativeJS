@@ -19,8 +19,9 @@ export function mult(a:number, b:number) {
 export function splitIntoWords(sentence: string): string[] {
     return sentence
         .toLowerCase()
-        .replace(/[!.,?;:-]/g, '') // Удаляем знаки препинания
+        .replace(/[!.,?;:-]/g, '')
         .split(/\s+/) // Разделяем по пробелам
         .filter(word => word.length > 0) // Убираем пустые строки
-        .map(word => word.trim()); // Убираем лишние пробелы
+        .map(word => word)
+        
 }
