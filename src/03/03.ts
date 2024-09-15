@@ -42,6 +42,6 @@ export const toHireAndFireStaff = (govermentBuildings:GovermentBuildingstype,sta
 
 
 export function greetingMessage(city:CityType) {
-    // return "Hello " + city.title + " citezens." +" I want you be happy." + " ALL " + city.citizensNumber + " men "
+    // return "Hello " + city.title + " citezens." +" I want you be happy." + " ALL " + city.citizensNumber + " men " //that one below more innovational
     return `Hello ${city.title} citezens. I want you be happy. ALL ${ city.citizensNumber} men `
 }

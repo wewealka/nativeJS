@@ -97,4 +97,5 @@ test ("Greeting message should be corrected for city", () => {
     // 
     // 2
     expect(greetingMessage(city)).toBe("Hello New York citezens. I want you be happy. ALL 100000 men ")
+    // 2
 })

@@ -46,9 +46,7 @@ test("new skill should be added to students object", () => {
 
 test("man should be made to active", () => {
     expect(man.isActive).toBe(false);
-
     madeManActive(man);
-
     expect(man.isActive).toBe(true);
 })
 
@@ -56,7 +54,6 @@ test("man lives in Minsk", () => {;
 
     let result1 = DoesManLiveInMinsk(man, "Moscow");
     let result2 = DoesManLiveInMinsk(man, "Minsk");
-
     expect(result1).toBe(false);
     expect(result2).toBe(true);
 
