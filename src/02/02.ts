@@ -1,6 +1,6 @@
 import { title } from "process"
 
-type manType = {
+export type manType = {
     id:number
     age:number
     name:string
@@ -21,7 +21,7 @@ type TechnologiesType = {
     title:string
 }
 
-const man:manType = {
+export const man:manType = {
     id: 1,
     name: "vova",
     age: 12,
