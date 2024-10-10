@@ -1,4 +1,4 @@
-import { manType } from "../02/02"
+import { manType } from "../02-objects/02"
 import { addingSkill, DoesManLiveInMinsk, madeManActive } from "./03"
 
 let man: manType

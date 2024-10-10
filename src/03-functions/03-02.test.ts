@@ -1,4 +1,4 @@
-import { CityType } from "./../02/02-02";
+import { CityType } from "../02-objects/02-02";
 import { addMoneyToBudget, greetingMessage, repairHouses, toHireAndFireStaff} from "./03";
 
 let city: CityType;

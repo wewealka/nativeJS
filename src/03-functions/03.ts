@@ -1,5 +1,5 @@
-import { manType } from "../02/02";
-import { CityType, GovermentBuildingstype, Housestype } from "../02/02-02";
+import { manType } from "../02-objects/02";
+import { CityType, GovermentBuildingstype, Housestype } from "../02-objects/02-02";
 
 const sum = (a:number, b:number) => {
     return a + b;
