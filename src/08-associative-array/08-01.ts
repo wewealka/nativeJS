@@ -18,12 +18,10 @@ export const users: usersType = {
     '1': { id: 1, name: 'sasha' }
 }
 
-
-var user = {id:100500, name: 'aik'}
-
-users[user.id] = user;
-users[user.id].name = 'pedro';
-delete users[user.id]
+// var user = {id:100500, name: 'aik'}
+// users[user.id] = user;
+// users[user.id].name = 'pedro';
+// delete users[user.id]
 
 
 export const usersArray1 = [
